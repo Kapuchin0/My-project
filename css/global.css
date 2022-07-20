@@ -1,0 +1,12 @@
+:root{
+    --blue:#1749B3;
+    --red:#FE0000;
+    --black1:#333333;
+    --black2:#171717;
+    --background:#ECF3FB;
+    --white:#FFFFFF;
+}
+
+li{
+    list-style-type: none;
+}

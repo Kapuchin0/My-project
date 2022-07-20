@@ -1,0 +1,210 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__container {
+    display: flex;
+    height: 60px;
+    width: 1440px;
+    background: var(--white);
+}
+
+.header-logo {
+    padding: 2px 8px 3px;
+}
+
+.header__name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    padding-right: 116px;
+    cursor: default;
+}
+
+.header__navigation {
+    padding-top: 18px;
+    max-width: 419px;
+    width: 100%;
+    height: 24px;
+}
+
+.header__panel-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.header__navigation-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    color: var(--black1);
+
+}
+
+.header__navigation-list-item__Netflix {
+    padding-top: 27px;
+    padding-left: 23px;
+}
+
+.header__navigation-list-item__YouTube {
+    padding: 20px 0 20px 23px;
+}
+
+.header__navigation-list-item__Spotify {
+    padding-left: 23px;
+}
+
+
+.header__navigation-link:hover {
+    color: var(--blue);
+}
+
+
+.header__navigation-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__navigation-list-item--dropdown::after {
+    content: "\f0d7";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60px;
+    width: 100%;
+    height: 24px;
+    padding-left: 120px;
+    padding-right: 40px;
+    padding-top: 18px;
+}
+
+
+
+.header__language-link:hover{
+    color: var(--blue);
+}
+
+.header__language-list-item--dropdown::after{
+    content: "\f0d7";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.header__language{
+    padding-top: 18px;
+}
+
+.header__language-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black1);
+    text-decoration: none;
+}
+
+.header__language-list-item--dropdown{
+    position: relative;
+}
+
+.header__language-list-item--dropdown:hover .header__language-menu{
+opacity: 1;
+visibility: visible;
+}
+
+.header__language-menu{
+    position: absolute;
+    top: 48px;
+    width: 114px;
+    height: 169px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 48px rgba(177, 177, 177, 0.4);
+    border-radius: 16px;
+}
+
+.header__language-list-item__EN{
+    padding: 27px 27px 20px 23px;
+}
+
+.header__language-list-item__UKR{
+    padding-left: 23px;
+}
+
+.header__language-list-item__RUS{
+    padding: 20px 24px 24px 23px;
+}
+
+.header__navigation-list-item--dropdown {
+    position: relative;
+}
+
+.header__navigation-list-item--dropdown:hover .header__navigation-sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header__navigation-sub-menu {
+    position: absolute;
+    top: 45px;
+    width: 205px;
+    height: 169px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 48px rgba(177, 177, 177, 0.4);
+    border-radius: 16px;
+    right: -71px;
+}
+
+
+.header__contacts-WhatsApp {
+    height: 20px;
+    width: 20px;
+    padding-left: 2px;
+}
+
+.header__contacts-Telegram {
+    height: 20px;
+    width: 20px;
+    padding-right: 2px;
+}
+
+.header__login {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.header__login__button {
+    width: 136px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    cursor: pointer;
+}
