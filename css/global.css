@@ -10,3 +10,11 @@
 li{
     list-style-type: none;
 }
+
+.cover{
+    background-color: #1749B3;
+}
+
+.main{
+    background-color: var(--background);
+}

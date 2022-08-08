@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,64 +8,100 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
-<body>
-    <header class="header">
-        <div class="container header__container">
-            <div class="header__panel-logo">
-                <img src="./images/Logo.svg" alt="logo" class="header-logo">
-                <p class="header__name">DiscountsOnServices</p>
-            </div>
-            <nav class="header__navigation">
-                <ul class="header__navigation-list"> 
-                    <li class="header__navigation-list-item header__navigation-list-item--dropdown">
-                        <a class="header__navigation-link" href="">Subscriptions</a>
-                        <ul class="header__navigation-sub-menu">
-                          <li class="header__navigation-list-item header__navigation-list-item__Netflix">
-                            <a class="header__navigation-link" href="">Netflix</a>
-                          </li>
-                          <li class="header__navigation-list-item header__navigation-list-item__YouTube">
-                            <a class="header__navigation-link" href="">YouTube Premium</a>
-                          </li>
-                          <li class="header__navigation-list-item header__navigation-list-item__Spotify">
-                            <a class="header__navigation-link" href="">Spotify</a>
-                          </li>
-                        </ul>
-                    </li>
-                    <li class="header__navigation-list-item">
-                        <a class="header__navigation-link" href="#">FAQ</a>
-                      </li>
-                      <li class="header__navigation-list-item">
-                        <a class="header__navigation-link" href="#">Support</a>
-                      </li>
-                      <li class="header__navigation-list-item">
-                        <a class="header__navigation-link" href="#">About</a>
-                      </li>
-                </ul>
-            </nav>
-            <div class="header__contacts">
-                <a class="header__contacts-WhatsApp" href="#"><img src="./images/WatsApp.svg" alt=""></a>
-                <a class="header__contacts-Telegram" href="#"><img src="./images/Telegram.svg" alt=""></a>
-            </div>
-            <div class="header__language">
-                <li class="header__language-list-item header__language-list-item--dropdown">
-                    <a href="#" class="header__language-link">EN</a>
-                    <ul class="header__language-menu">
-                        <li class="header__language-list-item__EN"><a href="" class="header__language-link">English</a></li>
-                        <li class="header__language-list-item__UKR"><a href="" class="header__language-link">Ukraine</a></li>
-                        <li class="header__language-list-item__RUS"><a href="" class="header__language-link">Russian</a></li>
-                    </ul>
 
-                </li>
+<body>
+    <section class="cover">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__panel-logo">
+                    <img src="./images/Logo.svg" alt="logo" class="header-logo">
+                    <p class="header__name">DiscountsOnServices</p>
+                </div>
+                <nav class="header__navigation">
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-list-item header__navigation-list-item--dropdown">
+                            <a class="header__navigation-link" href="">Subscriptions</a>
+                            <ul class="header__navigation-sub-menu">
+                                <li class="header__navigation-list-item header__navigation-list-item__Netflix">
+                                    <a class="header__navigation-link" href="">Netflix</a>
+                                </li>
+                                <li class="header__navigation-list-item header__navigation-list-item__YouTube">
+                                    <a class="header__navigation-link" href="">YouTube Premium</a>
+                                </li>
+                                <li class="header__navigation-list-item header__navigation-list-item__Spotify">
+                                    <a class="header__navigation-link" href="">Spotify</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">FAQ</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Support</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__contacts">
+                    <a class="header__contacts-WhatsApp" href="#"><img src="./images/WatsApp.svg" alt=""></a>
+                    <a class="header__contacts-Telegram" href="#"><img src="./images/Telegram.svg" alt=""></a>
+                </div>
+                <div class="header__language">
+                    <li class="header__language-list-item header__language-list-item--dropdown">
+                        <a href="#" class="header__language-link">EN</a>
+                        <ul class="header__language-menu">
+                            <li class="header__language-list-item__EN"><a href=""
+                                    class="header__language-link">English</a></li>
+                            <li class="header__language-list-item__UKR"><a href=""
+                                    class="header__language-link">Ukraine</a></li>
+                            <li class="header__language-list-item__RUS"><a href=""
+                                    class="header__language-link">Russian</a></li>
+                        </ul>
+
+                    </li>
+                </div>
+                <div class="header__login">
+                    <button class="header__login__button">
+                        Log in
+                    </button>
+                </div>
             </div>
-            <div class="header__login">
-                <button class="header__login__button">
-                    Log in
-                </button>
-            </div>
-        </div>
-    </header>
-    <body style="background-color: rgb(6, 173, 240);">
-        
-    </body>
+        </header>
+
+        <main class="main">
+            <section class="start-using">
+                <div class="start-using__text">
+                    <h1 class="start-using__discount">Start enjoying a benefit
+                        of up to 50%</h1>
+                    <p class="start-using__description">You have always wanted to get the same product at a special
+                        price
+                        for you, without haggling - and it is yours.</p>
+                    <button class="start-using__button">
+                        Start using
+                    </button>
+                </div>
+                <div class="start-using__image">
+                    <img src="./images/start-using.png" alt="Discount-image" class="start-using__images">
+                </div>
+            </section>
+            <h2 class="categories__subscription">Choose a subscription</h2>
+            <section class="categories">
+                <div class="categories__netflix">
+                    <div class="categories__text">
+                        <h3 class="categories__title">Netflix subscription rates</h2>
+                        <p class="categories__text">The constant contributes to the task of the same and thus the intended features and the set relation to the check and set also.</p>
+                        <button class="categories__button">Learn more</button>
+                    </div>
+                    <div class="categories__image">
+                        <img class="imgg" src="./images/Netflix.png" alt="Netflix">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
 </body>
+
+
 </html>

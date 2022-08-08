@@ -1,0 +1,80 @@
+.categories {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 37px;
+}
+
+.categories__netflix{
+    display: flex;
+    width: 1200px;
+height: 342px;
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+border-radius: 32px;
+}
+
+.categories__subscription {
+    padding-top: 120px;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.categories__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    color: var(--black2);
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.categories__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black1);
+    width: 440px;
+    height: 72px;
+    padding-top: 22px;
+    padding-left: 60px;
+    padding-right: 112px;
+}
+
+.categories__button {
+    width: 147px;
+    height: 54px;
+    background-color: var(--blue);
+    border-radius: 16px;
+    border: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: var(--white);
+    margin: 38px;
+}
+
+.categories__image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 588px;
+    height: 342px;
+    border-radius: 32px;
+    background-color: #000;
+}
+
+.imgg {
+}
