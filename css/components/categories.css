@@ -1,12 +1,32 @@
 .categories {
     display: flex;
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 37px;
+    height: 1058px;
+    justify-content: space-between;
 }
 
 .categories__netflix{
+    display: flex;
+    width: 1200px;
+height: 342px;
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+border-radius: 32px;
+}
+
+.categories__spotify {
+    display: flex;
+    width: 1200px;
+height: 342px;
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+border-radius: 32px;
+}
+
+.categories__youtube{
     display: flex;
     width: 1200px;
 height: 342px;
@@ -76,5 +96,13 @@ border-radius: 32px;
     background-color: #000;
 }
 
-.imgg {
+.categories__image--youtube{
+    background-color: #E1DCEB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 588px;
+    height: 342px;
+    border-radius: 32px;
 }

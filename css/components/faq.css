@@ -1,0 +1,183 @@
+.faq-cover {
+    background-color: white;
+    border-radius: 32px;
+}
+
+.faq__items {
+    width: 1200px;
+    margin-bottom: 40px;
+}
+
+.faq__items details:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.faq details {
+    position: relative;
+    font-size: 18px;
+}
+
+.faq summary {
+    padding-right: 373px;
+    padding: 40px 120px 40px 40px;
+    cursor: pointer;
+    display: block;
+    color: #171717;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    min-height: 20px;
+}
+
+.faq summary::before {
+    content: "";
+    position: absolute;
+    right: 40px;
+    top: 32px;
+    width: 40px;
+    height: 40px;
+    background: rgba(23, 23, 23, 0.05);
+    border-radius: 12px;
+    z-index: 100;
+}
+
+.faq summary::after {
+    content: "";
+    position: absolute;
+    right: 40px;
+    top: 32px;
+    width: 40px;
+    height: 40px;
+    background: url("/images/Vector.svg") center/14px 8px no-repeat;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.faq summary {
+    width: 707px;
+    height: 27px;
+}
+
+.faq p {
+    padding: 0 40px 40px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.faq details[open] summary {
+    padding: 40px 120px 20px 40px;
+}
+
+.faq details[open] summary::after {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-20px, 0);
+        transform: translate(-20px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-20px, 0);
+        transform: translate(-20px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.faq details[open] p {
+    -webkit-animation: slide 0.4s ease 0s;
+    animation: slide 0.4s ease 0s;
+}
+
+.faq {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.faq__btn button {
+    font-family: "Roboto";
+    width: 243px;
+    height: 54px;
+    background: #333333;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: white;
+}
+
+.faq__request {
+    margin-top: 120px;
+    width: 1200px;
+height: 159px;
+    display: flex;
+    width: 1200px;
+height: 159px;
+background: #1749B3;
+box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2), 0px 4px 24px rgba(213, 216, 221, 0.2), 0px 12px 28px rgba(244, 245, 245, 0.2);
+border-radius: 32px;
+}
+
+.faq__request-text h3{
+    width: 704px;
+    padding: 40px 80px 21px 60px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 140%;
+color: white;
+}
+
+.faq__request-text p{
+    padding: 0px 0px 40px 60px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: white;
+}
+
+.faq__request-btn button{
+    margin-top: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 130%;
+    width: 296px;
+height: 54px;
+background: #FFFFFF;
+border-radius: 16px;
+border: none;
+}

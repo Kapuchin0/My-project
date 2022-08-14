@@ -1,0 +1,49 @@
+.how-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.how-work__description{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 28px rgba(244, 245, 245, 0.2);
+    border-radius: 32px;
+    width: 388px;
+height: 300px;
+margin: 36px 16px 20px 0px;
+}
+
+.how-work__text-title{
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 140%;
+padding: 149px 0px 26px 40px;
+}
+
+.how-work__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+width: 227px;
+height: 54px;
+padding-left: 40px;
+}
+
+.how-work__image{
+    float: right;
+    padding: 7px 6px 0px 0px;
+}
+
+.how-work__image--chats{
+    float: right;
+    padding: 41px 27px 0px 0px;
+}
+
+.how-work__invite{
+    display: block;
+}

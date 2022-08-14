@@ -1,0 +1,76 @@
+.invite{
+    display: flex;
+    justify-content: center;
+}
+
+.invite__wrapper{
+    background: #1749B3;
+box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+border-radius: 32px;
+width: 1200px;
+height: 203px;
+display: flex;
+}
+
+.invite__content-title{
+    padding-top: 44px;
+    padding-left: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    color: #FFFFFF;
+    
+}
+
+.invite__content-text{
+    width: 508px;
+height: 55px;
+    padding: 24px 87px 44px 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.invite__share-title{
+    padding: 28px 0px 10px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.ivite__share-link{
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+text-decoration-line: none;
+text-transform: uppercase;
+
+color: #1749B3;
+}
+
+.ivite__share-link::after{
+    content: "\f35d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    text-decoration: none;
+    padding-left: 11px;
+}
+
+.invite__share{
+    margin-top: 40px;
+    background: #F1F4F8;
+border-radius: 16px;
+width: 445px;
+height: 123px;
+}

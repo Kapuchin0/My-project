@@ -12,9 +12,10 @@ li{
 }
 
 .cover{
-    background-color: #1749B3;
+    /* background-color: #1749B3; */
 }
 
 .main{
     background-color: var(--background);
+    padding-bottom: 120px;
 }
