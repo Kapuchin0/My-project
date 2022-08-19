@@ -135,6 +135,17 @@
     color: white;
 }
 
+.faq__btn button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.faq__btn button:active {
+    background: #606060;
+    color: white;
+}
+
 .faq__request {
     margin-top: 120px;
     width: 1200px;
@@ -180,4 +191,18 @@ height: 54px;
 background: #FFFFFF;
 border-radius: 16px;
 border: none;
+cursor: pointer;
+}
+
+.faq__request-btn button:hover{
+    background: #1749B3;
+    color: white;
+    border: 1px solid #FFFFFF;
+border-radius: 16px;
+}
+
+.faq__request-btn button:active{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    color: black;
 }

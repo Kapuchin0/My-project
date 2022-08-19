@@ -40,19 +40,43 @@ height: 55px;
     padding: 24px  0px 0px 60px;
 }
 
-.start-using__button{
+.start-using__button-container{
+    display: flex;
+    justify-content: center;
     width: 207px;
     height: 54px;
     border-radius: 16px;
     border: 0;
     background-color: var(--white); 
+    margin: 40px 0px 0px 60px;
+}
+
+.start-using__button{
+    text-align: center;
+    width: 207px;
+    color: black;
+    line-height: 54px;
     font-family: 'Roboto';
     font-style: normal;
 font-weight: 700;
 font-size: 17px;
-line-height: 130%;
-margin: 40px 0px 0px 60px;
 cursor: pointer;
+display: inline-block;
+text-decoration: none;
+text-align: center;
+}
+
+.start-using__button:hover{
+    background: #1749B3;
+    color: white;
+    border: 1px solid #FFFFFF;
+border-radius: 16px;
+}
+
+.start-using__button:active{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    color: black;
 }
 
 .start-using__image{

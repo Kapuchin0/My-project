@@ -5,6 +5,8 @@
     --black2:#171717;
     --background:#ECF3FB;
     --white:#FFFFFF;
+
+    --overlay-z-index: 100;
 }
 
 li{
@@ -18,4 +20,8 @@ li{
 .main{
     background-color: var(--background);
     padding-bottom: 120px;
+}
+
+a a:visited{
+    text-decoration: none;
 }

@@ -1,0 +1,200 @@
+.service__tariffs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+    width: 100%;
+  }
+  
+  .tariff {
+    background: #FFFFFF;
+box-shadow: 0px 12px 28px rgba(244, 245, 245, 0.2);
+border-radius: 32px;
+    padding: 60px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    margin:48px 0 8px 16px;
+    max-width: 309px;
+    min-height: 432px;
+  }
+  
+  .tariff:hover .tariff__btn-get {
+    background: #1749b3;
+    cursor: pointer;
+  }
+  
+  .tariff__name {
+    padding-bottom: 32px;
+    margin-bottom: 36px;
+    position: relative;
+  }
+  
+  .tariff__name::before {
+    content: '';
+    position: absolute;
+    width: calc(100% + 80px);
+    left: -40px;
+    bottom: 0;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .tariff__includes {
+    margin-bottom: 64px;
+    flex: 1 1 auto;
+  }
+  
+  .tariff__includes li:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  
+  .tariff__includes li {
+    position: relative;
+    color: #5c5c5c;
+    padding-left: 42px;
+  }
+  
+  .tariff__includes li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 27px;
+    height: 27px;
+    background: url('../../images/checkmark.svg') 0 0 / contain no-repeat;
+  }
+  
+  .tariff__price {
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0F0F0F;
+  }
+  
+  .tariff__price span {
+    font-size: 50px;
+    padding-left: 3px;
+    line-height: 130%;
+  }
+  
+  .tariff__btn-get {
+    font-family: 'Roboto';
+    width: 100%;
+    background: #333333;
+    border-radius: 12px;
+    text-align: center;
+    padding: 14px 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.4s ease 0s;
+  }
+
+  .service__title{
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+  }
+
+  .main{
+    padding-top: 60px;
+  }
+
+  .service__note{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #333333;
+  }
+
+  .service__note span{
+    color: #1749B3;
+  }
+
+  .tariff__name{
+    color: #0F0F0F;
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 700;
+font-size: 32px;
+text-align: center;
+  }
+
+  .tariff__includes li{
+    width: 309px;
+    color: #0F0F0F;
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+  }
+
+  .container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
+  .service__periods{
+    margin: auto;
+    height: 60px;
+    border-radius: 12px;
+    margin-top: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 360px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .service__periods a.active {
+    color: #fff;
+    border: 1px solid #1749b3;
+    background: #1749b3;
+    cursor: auto;
+}
+
+.service__periods a.active:hover {
+  background: #1749b3;
+}
+
+.service__periods a:nth-child(1) {
+    border-radius: 12px 0 0 12px;
+}
+.service__periods a {
+    text-decoration: none;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #030303;
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+    background: transparent;
+    cursor: pointer;
+    border: 1px;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #1749B3;
+    border-radius: 0px 12px 12px 0px;
+    }
+
+    .service__periods a:nth-child(2):hover{
+        background-color: rgb(93, 81, 255);
+        color: white;
+    }

@@ -114,11 +114,10 @@ visibility: visible;
 }
 
 .footer__language-menu{
+    left: -78px;
     display: flex;
     position: absolute;
     top: 25px;
-    width: 312px;
-    height: 80px;
     transition: .5s;
     opacity: 0;
     visibility: hidden;
@@ -128,7 +127,7 @@ visibility: visible;
 }
 
 .footer__language-list-item__EN{
-    padding: 27px 27px 20px 23px;
+    padding: 27px 10px;
 }
 
 .footer__language-list-item__EN:hover{
@@ -138,7 +137,7 @@ visibility: visible;
 }
 
 .footer__language-list-item__UKR{
-    padding: 27px 27px 20px 23px;
+    padding: 27px 10px;
 }
 
 .footer__language-list-item__UKR:hover{
@@ -148,7 +147,7 @@ visibility: visible;
 }
 
 .footer__language-list-item__RUS{
-    padding: 27px 27px 20px 23px;
+    padding: 27px 10px;
 }
 
 .footer__language-list-item__RUS:hover{
@@ -203,5 +202,9 @@ font-size: 16px;
 line-height: 150%;
 color: #D3D3D3;
 text-decoration-line: none;
+  }
+
+  .footer__language{
+    margin-top: 20px;
   }
   

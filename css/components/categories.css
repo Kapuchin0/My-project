@@ -70,7 +70,20 @@ border-radius: 32px;
     padding-right: 112px;
 }
 
+.categories__button-container{
+    display: flex;
+    justify-content: center;
+    width: 147px;
+    height: 54px;
+    background-color: var(--blue);
+    border-radius: 16px;
+    border: 0;
+    margin: 38px;
+}
+
 .categories__button {
+    text-decoration: none;
+    text-align: center;
     width: 147px;
     height: 54px;
     background-color: var(--blue);
@@ -80,9 +93,22 @@ border-radius: 32px;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    line-height: 130%;
+    line-height: 54px;
     color: var(--white);
-    margin: 38px;
+    /* margin: 38px; */
+    cursor: pointer;
+}
+
+.categories__button:hover{
+    background: white;
+    color: black;
+    border: 1px solid #1749B3;
+border-radius: 16px;
+}
+
+.categories__button:active{
+    background: #4B84FD;
+    color: white;
 }
 
 .categories__image {
