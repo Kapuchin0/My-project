@@ -40,7 +40,7 @@
     height: 40px;
     background: rgba(23, 23, 23, 0.05);
     border-radius: 12px;
-    z-index: 100;
+    z-index: 0;
 }
 
 .faq summary::after {
@@ -51,8 +51,6 @@
     width: 40px;
     height: 40px;
     background: url("/images/Vector.svg") center/14px 8px no-repeat;
-    -webkit-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
 
@@ -76,21 +74,17 @@
 }
 
 .faq details[open] summary::after {
-    -webkit-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
 }
 
 @-webkit-keyframes slide {
     0% {
         opacity: 0;
-        -webkit-transform: translate(-20px, 0);
         transform: translate(-20px, 0);
     }
 
     100% {
         opacity: 1;
-        -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 }
@@ -98,20 +92,18 @@
 @keyframes slide {
     0% {
         opacity: 0;
-        -webkit-transform: translate(-20px, 0);
         transform: translate(-20px, 0);
     }
 
     100% {
         opacity: 1;
-        -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
     }
 }
 
 .faq details[open] p {
-    -webkit-animation: slide 0.4s ease 0s;
     animation: slide 0.4s ease 0s;
+    color: #333333;
 }
 
 .faq {
@@ -205,4 +197,78 @@ border-radius: 16px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 16px;
     color: black;
+}
+
+
+@media screen and (max-width: 1300px){
+    .faq__items{
+        width: auto;
+    }
+    .faq__request{
+        width: auto;
+        margin-top: 100px;
+        justify-content: space-between;
+    }
+    .faq__request-text h3{
+        padding-right: 0;
+        width: auto;
+        padding-left: 10px;
+    }
+    .faq__request-text p{
+        font-size: 16px;
+        padding-left: 10px;
+        width: auto;
+    }
+    .faq__request-btn button{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 890px){
+.faq summary {
+    font-size: 17px;
+    width: auto;
+    height: auto;
+}
+
+.faq__items {
+    margin-bottom: 20px;
+}
+
+.faq-cover{
+    margin: 16px 24px;
+}
+.faq__btn button{
+    width: 243px;
+    height: 48px;
+}
+.faq__request{
+    width: 703px;
+height: 186px;
+}
+}
+
+@media screen and (max-width: 726px){
+    .faq__request{
+        width: 327px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    }
+    .faq__request-text h3{
+        padding: 40px 20px 16px 20px;
+    }
+    .faq__request-text p{
+        padding: 0 20px 32px 20px;
+    }
+    .faq__request-btn{
+        align-self: center;
+    margin-bottom: 40px;
+    }
+    .faq__request-btn button{
+        width: 287px;
+        height: 48px;
+        margin-top: 0;
+        margin: 0 20px;
+    }
 }

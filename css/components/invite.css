@@ -28,6 +28,7 @@ display: flex;
     width: 508px;
 height: 55px;
     padding: 24px 87px 44px 80px;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -73,4 +74,66 @@ color: #1749B3;
 border-radius: 16px;
 width: 445px;
 height: 123px;
+}
+
+@media screen and (max-width: 1120px){
+    .invite__content-text{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .invite__wrapper{
+        width: 707px;
+    }
+    .invite__content-text{
+       width: auto;
+    }
+    .invite__content-title{
+        padding: 32px 0 16px 32px;
+    font-size: 22px;
+    }
+    .invite__content-text{
+        word-spacing: 2px;
+        height: 99px;
+        width: 275px;
+    padding: 0 32px 32px 32px;
+    }
+    .invite__content-text br{
+        display: none;
+    }
+    .invite__share{
+
+        width: 336px;
+    height: 104px;
+    align-self: center;
+    margin: 0;
+    }
+    .invite__share-title{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .ivite__share-link{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 775px){
+    .invite__wrapper{
+        display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 344px;
+    }
+    .invite__content-title{
+        padding-left: 20px;
+    }
+    .invite__content-text{
+        padding-left: 20px;
+        padding-bottom: 32px;
+    }
+    .invite__share{
+        width: 287px;
+    height: 114px;
+    }
 }

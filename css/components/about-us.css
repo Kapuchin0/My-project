@@ -71,3 +71,61 @@ background-color: white;
     width: 592px;
     height: 535px;
 }
+
+@media screen and (max-width: 1130px){
+    .about-us__content{
+        width: 344px;
+    height: 412px;
+    }
+    .content-logo{
+        width: 60px;
+    height: 60px;
+    padding: 20px;
+    }
+    .about-us__content-text1{
+        font-size: 17px;
+    padding: 0 19px 16px 20px;
+    width: 305px;
+    height: 78px;
+    }
+    .about-us__content-text2{
+        font-size: 17px;
+    padding: 0 19px 16px 20px;
+    width: 303px;
+    height: 156px;
+    }
+    .about-us__content-text3{
+        width: 300px;
+        font-size: 17px;
+    padding: 0 19px 16px 20px;
+    }
+    .about-us-images{
+        width: 344px;
+        height: 412px;
+    }
+    .about-us-image{
+        width: 344px;
+    height: 412px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .about-us{
+        flex-direction: column-reverse;
+    align-items: center;
+    align-self: center;
+    }
+    .about-us__content{
+        width: 327px;
+        height: 412px;
+        margin: 16px 0 0 0;
+    }
+    .about-us-images{
+        width: 327px;
+        height: 412px;
+    }
+    .about-us-image{
+        width: 327px;
+        height: 412px;
+    }
+}

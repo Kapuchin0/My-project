@@ -90,3 +90,69 @@ border-radius: 16px;
 .start-using__images{
     width: 592px;
 }
+
+@media screen and (max-width: 1130px){
+
+
+    .start-using__image{
+        width: 334px;
+        height: 290px;
+    }
+    .start-using__image img{
+        width: 334px;
+        height: 290px;
+    }
+    .start-using__text{
+        width: 334px;
+        height: 290px;
+    }
+    .start-using__text *{
+        padding: 0;
+    }
+
+    .start-using__text h1{
+        font-size: 28px;
+        padding: 23px 20px 16px 20px;
+        width: 295px;
+    }
+    .start-using__text p{
+        padding: 0px 20px 32px 20px;
+        width: 295px;
+    }
+    .start-using__text div{
+        margin: 0 0 24px 20px;
+    }
+    .start-using__button{
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .start-using{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .start-using__image{
+        width: 327px;
+        height: 276px;
+    }
+    .start-using__image img{
+        width: 327px;
+        height: 276px;
+    }
+    .start-using__text{
+        margin-top: 16px;
+        margin-right: 0;
+        width: 327px;
+        height: 344px;
+    }
+
+    .start-using__text p {
+        width: 287px;
+        height: 92px;
+    }
+    .start-using__button-container{
+        width: 287px;
+        height: 48px;
+    }
+}

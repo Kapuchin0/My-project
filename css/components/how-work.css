@@ -47,3 +47,58 @@ padding-left: 40px;
 .how-work__invite{
     display: block;
 }
+
+@media screen and (max-width: 950px){
+    .how-work__description{
+        width: 224px;
+        height: 186px;
+    }
+    .how-work__image{
+        width: 81px;
+    height: 81px;
+    }
+    .how-work__text-title{
+        font-size: 19px;
+        padding: 48px 146px 0 20px;
+    }
+    .how-work__text{
+        font-size: 17px;
+        padding: 20px;
+        padding-top: 29px;
+    }
+    .how-work__image--chats{
+        width: 80px;
+height: 80px;
+padding-top: 21px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 775px){
+    .how-work{
+        flex-direction: column;
+        margin-top: 28px;
+    }
+    .how-work__description{
+        margin: 0;
+        width: 327px;
+        height: 172px;
+    }
+    .how-work__text-title{
+        padding-bottom: 45px;
+    }
+    .how-work__text{
+        width: 287px;
+        font-size: 17px;
+        padding: 0 20px 20px 20px;
+    }
+    .how-work__text br{
+        display: none;
+    }
+    .how-work__description--mobile{
+        width: 327px;
+    height: 198px;
+    margin: 16px 0 16px 0;
+    }
+}
