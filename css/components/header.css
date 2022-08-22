@@ -131,6 +131,7 @@
 }
 
 .header__language-list-item--dropdown{
+    width: 34.5px;
     position: relative;
 }
 
@@ -246,6 +247,12 @@ border-radius: 12px;
 
 .header__mobile-button{
     display: none;
+}
+
+@media screen and (max-width: 1030px){
+    .header__login{
+        padding-left: 10px;
+    }
 }
 
 @media screen and (max-width: 1055px){
